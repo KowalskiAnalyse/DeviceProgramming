@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block main %}
+    {% if Product %}
+        <div>
+            <img src="../assets/images/{{ Product }}.jpeg" alt="Product niet gevonden, probeer opnieuw." class="detail">
+
+            <div class="detail">
+                {{ Content }}
+                <p><a href="http://127.0.0.1:5000/producten/">Go back</a></p>
+            </div>
+        </div>
+    {% endif %}
+{% endblock %}

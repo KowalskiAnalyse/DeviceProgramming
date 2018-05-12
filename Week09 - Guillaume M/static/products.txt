@@ -1,0 +1,8 @@
+prod1:Een rechte jurk van zachte keper met korte mouwen met een volant onderaan. De jurk heeft een splitje met een knoop in de nek en een volant aan de onderkant. Ongevoerd.:14,99
+prod2:Een jurk van mesh met een glitterprint. De jurk heeft brede schouderbanden, een decoratieve overslag bovenaan, drukknopen en een afneembare strik op de rug, een naad bovenaan en een geplisseerde rok met een dubbele voering voor extra volume. Gevoerd.:24,99
+prod3:Een mouwloze jurk van een jacquardgeweven stof met glittergaren. De jurk heeft een blinde ritssluiting op de rug, een naad in de taille en een heel wijde rok met een tulen onderrok. Gevoerd.:29,99
+prod4:Een mouwloos topje van geweven stof met volants van fijn chiffon. Het model heeft een splitje met een knoop in de nek.:12,99
+prod5:Een plissé A-lijnjurk van geweven stof met een metallic finish. De jurk heeft een splitje met een knoop in de nek en korte kapmouwen. Gevoerd.:19,99
+prod6:Een rok van een dubbele laag glittertule met een geprint dessin. De rok heeft glitterelastiek en een decoratief strikje in de taille. Gevoerd.:14,99
+prod7:Een bloes van zacht, geweven katoen met een structuurdessin. De bloes heeft een splitje met een knoop in de nek en kapmouwtjes met een volant onderaan.:9,99
+prod8:Een off-the-shouldertop van fijne, geweven stof met smalle schouderbandjes, een volantrand bovenaan en lange mouwen met elastiek onderaan. Deels gevoerd.: 19,99

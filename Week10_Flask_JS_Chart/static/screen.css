@@ -1,0 +1,56 @@
+/*html {*/
+
+/*}*/
+
+body {
+    padding: 2% 10%;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+h1 {
+    margin: 2% 0;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 2% 0 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    padding: 8px 0;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2% 0;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr th {
+    background-color: #444;
+    color: white;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}

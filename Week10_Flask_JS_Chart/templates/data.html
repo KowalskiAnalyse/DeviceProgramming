@@ -1,0 +1,22 @@
+{% extends "template.html" %}
+{% block body %}
+    <h1>Data</h1>
+    <table>
+    <tr>
+    {% for r_list1 in title_list %}
+            <th>
+                {{ r_list1[0] }}
+            </th>
+    {% endfor %}
+    </tr>
+    {% for r_list2 in data_list %}
+        <tr>
+        {% for y in r_list2 %}
+            <td>
+            {% print(y) %}
+            </td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+     </table>
+{% endblock %}

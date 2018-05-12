@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+{%  extends "header.html" %}
+{% block body %}
+<h1>{% print(tabel) %}</h1>
+<table>
+{% for title in titles %}
+    <th>{{ title[0] }}</th>
+{% endfor %}
+
+{% for data in list %}
+    <tr>
+    {% for x in data %}
+        <td>{% print(x) %}</td>
+    {% endfor %}
+    </tr>
+{% endfor %}
+ </table>
+{% endblock %}
+
+

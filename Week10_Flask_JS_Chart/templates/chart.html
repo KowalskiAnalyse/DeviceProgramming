@@ -1,0 +1,26 @@
+{% extends "template.html" %}
+{% block body %}
+    <h1>GRAFIEK</h1>
+        <canvas id="Chart" width="400" height="400"></canvas>
+        <script>
+        var ctx = document.getElementById("Chart").getContext('2d');
+        var Chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December"],
+                datasets: [
+                    {% for jaar_gegevens in values %}
+                        {# index0 -> start van 0 #}
+                        {
+                            label: "{{ jaren[loop.index0] }}",
+                            data: {{ jaar_gegevens }},
+                            backgroundColor: "{{ colors[loop.index0] }}",
+                        },
+                    {% endfor %}
+                ]
+            },
+            // Configuration options go here
+            options: {}
+        });
+        </script>
+{% endblock %}

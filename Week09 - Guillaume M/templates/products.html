@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+    <h1>Producten</h1>
+    <div class="flex-products">
+        {% if Producten %}
+            {% for p in Producten %}
+                <article>
+                    <img src="../assets/images/3302182.jpg">
+                    <figcaption class="center"><b>{{ p[1] }}</b></figcaption>
+                </article>
+            {% endfor %}
+        {% else %}
+            <p>Error: geen producten gevonden!</p>
+        {% endif %}
+    </div>
+{% endblock %}
